@@ -1,29 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Playfair+Display');
+
 body {
   background-color: #BF9FD6;
   color: #412D4F;
+  font-family: 'Playfair Display', serif;
 }
 
 footer {
   color: white;
   background-color: #412D4F;
   text-align: right;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  position: relative;
+  top: 80px;
 }
 
 footer p {
   padding-right: 50px;
-  padding: 10px;
+  padding: 20px;
 }
 footer p a {
   text-decoration: underline;
   color: white;
 }
 
+.menu-outer {
+  background-color: #412D4F;
+  width: 100%;
+}
+
 .menu {
+  text-align: center;
   color: white;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 200%;
+  display: table;
+	margin: 0 auto;
+  background-color: #412D4F;
 }
 
 .menu ul {
@@ -31,10 +43,10 @@ footer p a {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #412D4F;
 }
 
 .menu li {
+  padding: 20px;
   float: left;
 }
 
@@ -53,7 +65,16 @@ footer p a {
   background-color:  #BF9FD6;
 }
 
+h1 {
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+h4 {
+  font-family: 'Alegraya Sans', sans-serif;
+}
+
 .content {
+  text-align: center;
   padding: 50px;
 }
 
@@ -71,14 +92,28 @@ footer p a {
 }
 
 .links figcaption {
+  text-align: center;
+}
+
+.assignment {
+  padding: 30px;
+  background-color: #D0B1DD;
+  border: solid 5px #412D4F;
+  margin: auto;
+  width: 50%;
+  text-align: left;
+}
+
+.blogpost {
+  padding: 30px;
+  background-color: #D0B1DD;
+  border: solid 5px #412D4F;
+  margin: auto;
+  width: 50%;
   text-align: left;
 }
 
 
-.blogpost hr {
-  border-top: 1px solid #8c8b8b;
-  border-bottom: 1px solid #fff;
-}
 
 .date {
   font-style: italic;
