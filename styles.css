@@ -32,7 +32,7 @@ footer p a {
   text-align: center;
   color: white;
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: 120%;
+  font-size: 100%;
   display: table;
 	margin: 0 auto;
   background-color: #412D4F;
@@ -46,7 +46,7 @@ footer p a {
 }
 
 .menu li {
-  padding: 20px;
+  padding: 5px;
   float: left;
 }
 
@@ -203,4 +203,9 @@ div.calendar {
     padding: 5px;
     background: #DDBE40;
     color: white !important
+}
+
+.contact-form {
+  display: inline-block;
+  text-align: center;
 }
